@@ -22,12 +22,13 @@ import Table from './components/Table';
 import PureComp from './components/PureComp';
 import RegComp from './components/RegComp';
 import ParentRegComp from './components/ParentRegComp';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
   return (
     <div className="App">
-      <LifecycleParent />
+      {/* <LifecycleParent /> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
       {/* <Form /> */}
@@ -46,9 +47,10 @@ function App() {
       <NameList />
       <Stylesheet primary={true} />
       <Inline /> */}
-      <FragmentDemo />
+      {/* <FragmentDemo />
       <Table />
-      <ParentRegComp />
+      <ParentRegComp /> */}
+      <RefsDemo />
 
     </div>
   );
