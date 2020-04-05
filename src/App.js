@@ -23,6 +23,7 @@ import PureComp from './components/PureComp';
 import RegComp from './components/RegComp';
 import ParentRegComp from './components/ParentRegComp';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 
 function App() {
@@ -50,8 +51,8 @@ function App() {
       {/* <FragmentDemo />
       <Table />
       <ParentRegComp /> */}
-      <RefsDemo />
-
+      {/* <RefsDemo /> */}
+      <FocusInput />
     </div>
   );
 }
