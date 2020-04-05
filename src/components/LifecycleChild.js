@@ -21,6 +21,20 @@ class LifecycleChild extends Component {
         console.log('child componentDidMount')
     }
 
+    shouldComponentUpdate() {
+        console.log('LifecycleChild shouldComponentUpdate')
+        return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log('LifecycleChild getSnapshotBeforeUpdate')
+        return null
+    }
+
+    componentDidUpdate() {
+        console.log('LifecycleChild componentDidUpdate')
+    }
+
     render() {
         console.log('child render')
         return (

@@ -22,11 +22,33 @@ class LifecycleParent extends Component {
         console.log('parent componentDidMount')
     }
 
+    shouldComponentUpdate() {
+        console.log('LifecycleParent shouldComponentUpdate')
+        return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log('LifecycleParent getSnapshotBeforeUpdate')
+        return null
+    }
+
+    componentDidUpdate() {
+        console.log('LifecycleParent componentDidUpdate')
+    }
+
+    changeState = () => {
+        this.setState({
+            name: 'CodeEvolution'
+        })
+    }
+
+
     render() {
         console.log('parent render')
         return (
             <div>
                 LifecycleParent
+                <button onClick={this.changeState}>Change state</button>
                 <LifecycleChild />
             </div>
         )
