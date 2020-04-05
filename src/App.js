@@ -19,6 +19,9 @@ import Form from './components/Form';
 import LifecycleParent from './components/LifecycleParent';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
+import RegComp from './components/RegComp';
+import ParentRegComp from './components/ParentRegComp';
 
 
 function App() {
@@ -45,6 +48,7 @@ function App() {
       <Inline /> */}
       <FragmentDemo />
       <Table />
+      <ParentRegComp />
 
     </div>
   );
