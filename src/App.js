@@ -17,6 +17,8 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifecycleParent from './components/LifecycleParent';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
       <NameList />
       <Stylesheet primary={true} />
       <Inline /> */}
+      <FragmentDemo />
+      <Table />
 
     </div>
   );
