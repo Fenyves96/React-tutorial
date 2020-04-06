@@ -25,6 +25,7 @@ import ParentRegComp from './components/ParentRegComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './PortalDemo';
 
 
 function App() {
@@ -54,7 +55,8 @@ function App() {
       <ParentRegComp /> */}
       {/* <RefsDemo /> */}
       {/* <FocusInput /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+      <PortalDemo />
     </div>
   );
 }
