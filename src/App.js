@@ -4,6 +4,7 @@ import './App.css';
 
 import ComponentC from './components/tutorial/ComponentC';
 import { UserProvider } from './components/tutorial/UserContext';
+import PostList from './components/http/PostList';
 
 
 function App() {
@@ -52,9 +53,10 @@ function App() {
       <User render={(isLoggedIn) => isLoggedIn ? 'Máté' : 'Anonymus'} /> */}
       {/* <Counter render={(count, incrementCount) => <ClickCounterTwo count={count} incrementCount={incrementCount}></ClickCounterTwo>} />
       <Counter render={(count, incrementCount) => <HoverCounterTwo count={count} incrementCount={incrementCount}></HoverCounterTwo>} /> */}
-      <UserProvider value="Máté">
+      {/* <UserProvider value="Máté">
         <ComponentC />
-      </UserProvider>
+      </UserProvider> */}
+      <PostList />
     </div>
   );
 }
