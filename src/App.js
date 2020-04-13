@@ -5,6 +5,7 @@ import './App.css';
 import ComponentC from './components/tutorial/ComponentC';
 import { UserProvider } from './components/tutorial/UserContext';
 import PostList from './components/http/PostList';
+import PostForm from './components/http/PostForm';
 
 
 function App() {
@@ -56,7 +57,8 @@ function App() {
       {/* <UserProvider value="Máté">
         <ComponentC />
       </UserProvider> */}
-      <PostList />
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   );
 }
