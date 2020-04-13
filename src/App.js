@@ -7,6 +7,7 @@ import { UserProvider } from './components/tutorial/UserContext';
 import PostList from './components/http/PostList';
 import PostForm from './components/http/PostForm';
 import HookCounter from './components/Hooks/HookCounter';
+import HookCounter2 from './components/Hooks/HookCounter2';
 
 
 
@@ -62,6 +63,7 @@ function App() {
       {/* <PostList /> */}
       <HookCounter></HookCounter>
       <PostForm />
+      <HookCounter2></HookCounter2>
     </div>
   );
 }
