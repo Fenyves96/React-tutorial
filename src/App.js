@@ -6,6 +6,8 @@ import ComponentC from './components/tutorial/ComponentC';
 import { UserProvider } from './components/tutorial/UserContext';
 import PostList from './components/http/PostList';
 import PostForm from './components/http/PostForm';
+import HookCounter from './components/Hooks/HookCounter';
+
 
 
 function App() {
@@ -58,6 +60,7 @@ function App() {
         <ComponentC />
       </UserProvider> */}
       {/* <PostList /> */}
+      <HookCounter></HookCounter>
       <PostForm />
     </div>
   );
